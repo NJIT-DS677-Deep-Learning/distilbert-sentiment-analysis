@@ -7,6 +7,14 @@ description: Sentiment analysis datasets and candidate data sources.
 
 ## The following are potential datasets.  Have not been evaluated yet (Jeff) will look
 
+-  SST-2 is a widely used dataset for sentiment classification, built from movie-review text.
+     - Has a sentiment analysis label.  Labels are negative (0) or positive (1).  There are no neutral datasets.
+
+     **Analysis**
+     This is our baseline dataset.  It is designed for sentiment analysis.  Since this dataset only has positive and negative we should exclude neutral sentences from our other datasets.
+
+An example notebook that uses the SST-2 dataset is at [SST-2 Notebook](samples/ss2_test.ipynb)
+
 - TweetEval sentiment - realistic short-form positive/neutral/negative language. Already has irony and sarcasm in it.  [TweetEval](https://huggingface.co/datasets/cardiffnlp/tweet_eval)
      - Tweeteval also has irony in it as a separate configuration
  
