@@ -8,3 +8,5 @@ Test of DistilBERT using sentiment analysis
 **Stress test -** We will also evaluate both models on a harder dataset. This dataset should include a mix of positive and negative sentiment within a single review, and include elements such as sarcasm that are designed to confuse a classifier.
 
 **Upper bound -** Finally, we will run a sample from each dataset through current state-of-the-art industry models. Their accuracy gives an approximate upper limit on achievable performance.
+
+The candidate datasets are at [Datasets](datasets.md)
