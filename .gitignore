@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.copilot-tracking/rpi-sessions/2026-11-14/go-emotions/go-emotions-state.json
+.copilot-tracking/reviews/plans/2026-11-14/go-emotions-plan-critique.md
+.copilot-tracking/reviews/logs/2026-11-14/go-emotions-review.md
+.copilot-tracking/research/2026-11-14/go-emotions-research.md
+.copilot-tracking/plans/2026-11-14/go-emotions-plan.md
+.copilot-tracking/changes/2026-11-14/go-emotions-changes.md
