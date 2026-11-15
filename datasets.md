@@ -25,4 +25,9 @@ description: Sentiment analysis datasets and candidate data sources.
      **Analysis**
        This dataset tests for 27 different labels and a sentence can have more than one label.  They provide a sentiment mapping file that maps emotions to sentiment analysis.  As a result we can use this dataset.  A sample of how to use this dataset and how to map it can be found in the [GOEmotions Notebook](https://github.com/NJIT-DS677-Deep-Learning/distilbert-sentiment-analysis/blob/main/samples/go_emotions.ipynb)
   
-- BESSTIE - dataset includes both sentiment analysis AND sarcasm labels.  Only potential issue is that it's based on UK, Indian and Australian dialects of English.  There is also no neutral sentiment.  It's either positive or negative. [BESSTIE](https://huggingface.co/datasets/unswnlporg/BESSTIE).  
+- BESSTIE - dataset includes both sentiment analysis AND sarcasm labels.  Only potential issue is that it's based on UK, Indian and Australian dialects of English.  There is also no neutral sentiment.  It's either positive or negative. [BESSTIE](https://huggingface.co/datasets/unswnlporg/BESSTIE).
+
+     **Analysis**
+       This dataset is unique in that unlike the other datasets it provides labels for both sentiment analysis and sarcasm allowing us to easily test sentiment analysis scenarios with sarcasm.
+
+  A notebook showing how to use BESSTIE can be found at [BESTIE Notebook](https://github.com/NJIT-DS677-Deep-Learning/distilbert-sentiment-analysis/blob/main/samples/BESSTIE_test.ipynb)
