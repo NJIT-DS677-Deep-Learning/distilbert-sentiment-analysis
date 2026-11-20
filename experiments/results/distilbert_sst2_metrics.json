@@ -1,0 +1,21 @@
+{
+  "model": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+  "dataset": "stanfordnlp/sst2",
+  "split": "validation",
+  "num_examples": 872,
+  "accuracy": 0.9105504587155964,
+  "f1_positive": 0.9137168141592921,
+  "f1_macro": 0.9104298356510746,
+  "confusion_matrix": [
+    [
+      381,
+      47
+    ],
+    [
+      31,
+      413
+    ]
+  ],
+  "batch_size": 32,
+  "max_length": 128
+}
